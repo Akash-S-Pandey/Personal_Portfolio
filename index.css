@@ -1091,4 +1091,20 @@ footer a {
     footer p {
         font-size: .6rem;
     }
+    .fillter-button .btn{
+        font-size: .8rem;
+    }
+    .img-about img{
+        width: 300px;
+    }
+
+    .info-about1 ,
+    .info-about2 ,
+    .info-about3{
+        display: none;
+    }
+
+    .img-about p{
+
+    }
 }

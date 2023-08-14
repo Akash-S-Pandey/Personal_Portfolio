@@ -975,6 +975,29 @@ footer a{
 
 
 
-@media(max-width:991px){
-    
+@media(max-width:768px){
+    #menu-icon{
+        display: block;
+        transition: all .4s ease;
+    }
+    .nav-list{
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        padding: 0 5%;
+        transition: all .45s ease;
+    }
+    .nav-list a{
+        display: block;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .nav-list.open{
+
+    }
 }

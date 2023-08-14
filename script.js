@@ -101,9 +101,14 @@ window.addEventListener("scroll",function(){
 //toggle icon navbar
 
 let menuIcon =document.querySelector('#menu-icon');
-let navlist = document.querySelector(".navlist");
+let navlist = document.querySelector(".nav-list");
 
 menuIcon.onclick = () =>{
     menuIcon.classList.toggle("bx-x");
     navlist.classList.toggle('open');
+}
+
+window.onscroll = () =>{
+    menuIcon.classList.remove("bx-x");
+    navlist.classList.remove('open');
 }

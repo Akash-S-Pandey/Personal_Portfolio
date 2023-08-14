@@ -362,6 +362,7 @@ section{
 .about .img-about{
     text-align: center;
     position: relative;
+    
 }
 
 .about .img-about img{
@@ -375,6 +376,7 @@ section{
 .about .img-about img:hover{
     transition: .4s ease-in-out;
     transform: scale(1.0202);
+    box-shadow: var(--neon-box-shadow)
 }
 
 .about-content span{
@@ -980,10 +982,15 @@ footer a{
         display: block;
         transition: all .4s ease;
     }
+
+    #menu-icon.bx-x{
+        transform: rotate(-180deg);
+       
+    }
     .nav-list{
         display: flex;
         position: absolute;
-        top: 100%;
+        top: -1000px;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -997,7 +1004,48 @@ footer a{
         padding-bottom: 1rem;
         font-size: 1rem;
     }
-    .navlist.open{
+    
+    .nav-list.open{
+        top: 100%;
+    }
+    .home{
+        grid-template-columns: 1fr;
+    }
+
+    .home-image{
+        margin-bottom: 5rem;
+       
+    }
+
+    .liquid-shape{
+        width: 90%;
+        left: 12%;
+        top: 13%;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about .img-about img{
+        margin-bottom: 3rem;
+    }
+
+    .info-about1{
+        top:8% ;
+        left:0%;
+    }
+    .info-about2{
+        top: 30%;
+        left: 90%;
 
     }
+    .info-about3{
+        top: 78%;
+    }
+    .skill-main .skill-right .box{
+        margin: 0 15px 0 15px;
+    }
+
+   
+   
 }

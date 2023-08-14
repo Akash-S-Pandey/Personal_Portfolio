@@ -1030,6 +1030,10 @@ footer a{
         margin-bottom: 3rem;
     }
 
+    .skill-main{
+        grid-template-columns: 1fr;
+    }
+
     .info-about1{
         top:8% ;
         left:0%;

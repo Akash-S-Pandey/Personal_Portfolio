@@ -967,7 +967,14 @@ footer a{
     .home-content{
         margin-top: 5rem;
     }
+    .social-icon{
+        margin-top: 2rem;
+
+    }
 }
 
 
 
+@media(max-width:991px){
+    
+}

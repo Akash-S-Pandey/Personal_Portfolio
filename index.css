@@ -267,7 +267,7 @@ section {
 }
 
 .btn:nth-child(2)::before {
-    background: var(--hover-color);
+    background: var(--bg-color);
 }
 
 
@@ -684,6 +684,7 @@ section {
 
 .fillter-button .btn:hover {
     color: var(--hover-color);
+    
 }
 
 
@@ -875,6 +876,11 @@ footer a i{
 .scroll-bottom{
     opacity: 0;
     transform: translateY(300px);
+    transition: 3s;
+}
+.scroll-top{
+    opacity: 0;
+    transform: translateY(-300px);
     transition: 3s;
 }
 
@@ -1124,7 +1130,5 @@ footer a i{
         display: none;
     }
 
-    .img-about p{
-
-    }
+    
 }

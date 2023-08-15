@@ -86,9 +86,13 @@ span {
 }
 
 .nav-list a {
+    display: inline-block;
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 20px;
+    animation: slideAnimation 1s ease forwards;
+    animation-delay: calc(.3s*var(--i));
+    opacity: 0;
 }
 
 
@@ -977,6 +981,21 @@ footer a i {
     100% {
         background: var(--hover-color);
         box-shadow: var(--neon-box-shadow);
+
+    }
+}
+
+
+@keyframes slideAnimation{
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
 
     }
 }

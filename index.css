@@ -783,9 +783,6 @@ section {
    gap: 10px;
 }
 
-
-
-
 .port-content a {
     background: #fff;
     border-radius: 50%;
@@ -796,6 +793,8 @@ section {
     height: 50px;
     border: 1px solid var(--hover-color);
     outline: 2px solid #fff;
+    color: var(--secon-bg-color);
+    font-family: sans-serif;
 
 }
 

@@ -778,6 +778,11 @@ section {
     margin: 5px 0px 15px 0px;
 }
 
+.port-content .bubble{
+   display: flex;
+   gap: 10px;
+}
+
 
 
 

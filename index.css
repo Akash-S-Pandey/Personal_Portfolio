@@ -373,16 +373,12 @@ section {
 .about .img-about img {
     max-width: 400px;
     height: auto;
-    box-shadow: var(--neon-box-shadow);
-    border-radius: 70%;
-    transition: .6s ease-in;
+    box-shadow: 1px 1px 5px rgb(119, 117, 117);
+    border-radius: 3px;
+    transition: .3s ease-in;
 }
 
-.about .img-about img:hover {
-    transition: .4s ease-in-out;
-    transform: scale(1.0202);
-    box-shadow: var(--neon-box-shadow)
-}
+
 
 .about-content span {
     color: whitesmoke;

@@ -356,6 +356,15 @@ section {
 
 
 /*---------- about section css style---------------------------------------------------- */
+
+.about-tech {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    background: var(--secon-bg-color);
+}
+
 .about {
     display: flex;
     justify-content: center;
@@ -605,6 +614,13 @@ section {
     width: 78%;
     animation: python 5s;
 }
+
+.skill-bar .bar .python {
+    width: 55%;
+    animation: python 5s;
+}
+
+
 
 
 /* ----------------skill right ----------------------------------*/

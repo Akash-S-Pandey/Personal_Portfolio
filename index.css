@@ -715,6 +715,8 @@ section {
    
 }
 
+
+
   .modal-content {
     position: absolute;
     top: 50%;
@@ -1241,3 +1243,68 @@ footer a i {
 
 
 }
+
+
+/* Your existing styles */
+
+/* Your existing styles */
+
+/* Media query for screens smaller than 467 pixels */
+@media screen and (max-width: 467px) {
+    .modal-content {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .modal-content p img{
+        width: 300px;
+        height: 400px;
+        
+    }
+  
+    .close {
+      top: 5px; /* Adjust close button position for smaller screens */
+      right: 5px;
+    }
+  }
+  
+  /* Media query for screens between 467 and 600 pixels */
+  @media screen and (min-width: 468px) and (max-width: 600px) {
+    .modal-content {
+      padding: 15px; /* Adjust padding for medium-sized screens */
+    }
+
+    .modal-content p img{
+       width: 450px;
+       height: 600px;
+        
+    }
+  
+    .close {
+      top: 8px; /* Adjust close button position for medium-sized screens */
+      right: 8px;
+    }
+  }
+  
+  /* Media query for screens between 600 and 786 pixels */
+  @media screen and (min-width: 601px) and (max-width: 786px) {
+    .modal-content {
+      padding: 18px; /* Adjust padding for screens between 600px and 786px */
+    }
+
+    .modal-content p img{
+        width: 550px;
+        height: 700px;
+         
+     }
+  
+    .close {
+      top: 12px; /* Adjust close button position for screens between 600px and 786px */
+      right: 12px;
+    }
+  }
+  
+  /* Your existing styles */
+  
+  
+
+  

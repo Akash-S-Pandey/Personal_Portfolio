@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700;1,900&family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,100;1,900&family=Poppins&family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400&family=Dancing+Script:wght@700&family=Lato:ital,wght@0,300;0,700;1,300;1,700;1,900&family=Lora:ital,wght@0,400;0,500;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,100;1,900&family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700&display=swap'); */
 
 * {
     padding: 0px;
@@ -682,6 +683,57 @@ section {
     animation: glow 0.04s linear forwards;
     animation-delay: calc(var(--i)*0.05s);
 }
+
+
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+  .modal h4{
+    text-align: center;
+    color:#3f0438;
+    text-transform: uppercase;
+   font-size: 20px;
+   padding-bottom: 3px;
+   font-family: 'Dancing Script', cursive;
+  }
+  
+.modal span{
+  color: #250821;
+}
+
+.modal span:hover{
+   color: #12f7ff;
+   
+}
+
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(129, 126, 126);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
 
 
 

@@ -135,3 +135,16 @@ scrollBottom.forEach((el)=>observer.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el)=>observer.observe(el));
+
+
+
+// Open the alert modal when the page loads
+window.onload = function () {
+    document.getElementById('alertModal').style.display = 'block';
+  };
+  
+  // Close the alert modal
+  function closeAlertModal() {
+    document.getElementById('alertModal').style.display = 'none';
+  }
+  
